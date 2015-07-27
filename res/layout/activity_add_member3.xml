@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+<include layout="@layout/top_title2"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="已购买课时数"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+                
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="12"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            
+                
+            </LinearLayout>
+
+            <include layout="@layout/hline" />
+
+                  <LinearLayout
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            <TextView
+                
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="每周上课安排"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+                
+            <TextView
+                 android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="时间"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            
+                
+            </LinearLayout>
+            <include layout="@layout/hline" />
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="周一"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+                
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="17:00-18:00"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            
+                
+            </LinearLayout>
+
+            <include layout="@layout/hline" />
+            
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="周四"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+                
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="17:00-18:00"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            
+                
+            </LinearLayout>
+
+            <include layout="@layout/hline" />
+            
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="周六"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+                
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="15:00-16:00"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            
+                
+            </LinearLayout>
+
+            <include layout="@layout/hline" />
+            
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="首次上课日期"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+                
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="2015年7月7日"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            
+                
+            </LinearLayout>
+              <include layout="@layout/hline" />
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            <TextView
+                
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="添加新阶段课程"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+                
+            <TextView
+                android:visibility="invisible"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="025-8888888"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            
+                
+            </LinearLayout>
+              <include layout="@layout/hline" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

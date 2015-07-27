@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<include layout="@layout/top_title2"/>
+	<EditText
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:gravity="left|top"
+        android:hint="说点什么吧..."       
+        android:background="@null" >
+    </EditText>
+    
+	<ImageButton 
+	    android:layout_marginLeft="5dp"
+	    android:background="@drawable/icon_addpic_unfocused"
+	    android:layout_width="100dp"
+	    android:layout_height="100dp"
+	    />
+</LinearLayout>

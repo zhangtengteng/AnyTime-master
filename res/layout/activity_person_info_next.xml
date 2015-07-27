@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_title1" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_margin="15dp"
+             android:text="还有什么要对会员说的呢...."
+             android:textSize="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+           />
+    </RelativeLayout>
+
+    <ImageView
+            android:layout_margin="15dp"
+         
+          android:background="@drawable/ysh_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+           />
+
+</LinearLayout>
